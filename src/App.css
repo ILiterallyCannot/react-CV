@@ -84,14 +84,6 @@
   width: 100%;
 }
 
-.about-right-col {
-  border: 3px solid red;
-}
-
-.about-left-col {
-  border: 3px solid black;
-}
-
 .about-right-col p {
   font-size: 40px;
   color: whitesmoke;
@@ -358,7 +350,7 @@
   .langScale {
     font-size: 10px;
   }
-  
+
   .skillScale {
     font-size: 10px;
   }
