@@ -81,7 +81,7 @@ class Resume extends Component {
             return (
                 <div>
                     <h2>Skills and Understanding</h2>
-                    <h5 style={{ textAlign: 'center' }}> ← Student/Intern ---------- Junior ---------- Senior → </h5>
+                    <h5 className='skillScale' style={{ textAlign: 'center' }}> ← Student/Intern ---------- Junior ---------- Senior → </h5>
                     <h4>Programming</h4>
                     <Skills
                         skill='Python'
@@ -137,7 +137,7 @@ class Resume extends Component {
                     />
                     <hr style={{ borderTop: '3px solid #e22947' }} />
                     <h4>Software and Platform services</h4>
-                    <h5 style={{ textAlign: 'center' }}> ← Student/Intern ---------- Junior ---------- Senior → </h5>
+                    <h5 className='skillScale' style={{ textAlign: 'center' }}> ← Student/Intern ---------- Junior ---------- Senior → </h5>
                     <Skills
                         skill='Jenkins'
                         progress='35'
@@ -204,7 +204,7 @@ class Resume extends Component {
             return (
                 <div>
                     <h2>Language Skills</h2>
-                    <h5 style={{ textAlign: 'center' }}> ← Basics -------------------- Fluent/Native → </h5>
+                    <h5 className='langScale' style={{ textAlign: 'center' }}> ← Basics -------------------- Fluent/Native → </h5>
                     <Languages
                         language='English'
                         progress='100'

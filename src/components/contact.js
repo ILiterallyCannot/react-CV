@@ -10,9 +10,8 @@ class Contact extends Component {
                 <Grid className="contact-grid">
                     <Cell col={6}>
                         <h2>Corey Johnson</h2>
-                        <img src={profile}
-                            alt='profile'
-                            style={{ height: '250px', borderRadius: '50%' }} />
+                        <img src={profile} className='contact-profile'
+                            alt='profile'/>
                         <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>
 
                         </p>
@@ -38,14 +37,14 @@ class Contact extends Component {
                                 </ListItem>
                                 <ListItem>
                                     <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton' }}>
-                                        <i className='fa fa-envelope' aria-hidden='true' />
-                                        <a href='mailto: cjmkori90@gmail.com'>cjmkori90@gmail.com</a>
+                                        <i className='fa fa-download' aria-hidden='true' />
+                                        <a href={resume} download>See my CV!</a>
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>
                                     <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton' }}>
-                                        <i className='fa fa-download' aria-hidden='true' />
-                                        <a href={resume} download>See my CV</a>
+                                        <i className='fa fa-envelope' aria-hidden='true' />
+                                        <a href='mailto: cjmkori90@gmail.com'>Email Me!</a>
                                     </ListItemContent>
                                 </ListItem>
                             </List>
