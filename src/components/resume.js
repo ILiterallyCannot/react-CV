@@ -188,7 +188,7 @@ class Resume extends Component {
                         schoolName='Jämsä Christian College'
                         schoolDescription='Certificate of Finnish Language' />
                     <Education
-                        startYear={206}
+                        startYear={2006}
                         endYear={2007}
                         schoolName='East Valley Institute of Technology'
                         schoolDescription='Private Pilot Ground School' />
