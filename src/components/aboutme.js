@@ -9,7 +9,7 @@ class About extends Component {
                 <Grid style={{ height: '100%', backgroundColor: 'rgba(0, 0, 0, 0.4)' }}>
                     <Cell col={4} className='about-left-col'>
                         <div>
-                            <img className='profile-img' alt='profile picture' src={profile}
+                            <img className='profile-img' alt='profile' src={profile}
                                 style={{ width: '100%', height: 'auto' }} />
                         </div>
                         <h4 style={{ color: 'white' }}>Phone number</h4>

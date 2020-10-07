@@ -235,7 +235,7 @@ class Resume extends Component {
                 <Grid className='resume-body'>
                     <Cell col={4} className='resume-left'>
                         <div style={{ textAlign: 'center' }}>
-                        <img className='profile-img' alt='profile picture' src={profile}
+                        <img className='profile-img' alt='profile' src={profile}
                                 style={{ height: '250px' }} />
                         </div>
                         <h2 style={{ paddingTop: '1em' }}>Corey Johnson</h2>
