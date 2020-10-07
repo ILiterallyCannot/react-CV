@@ -1,0 +1,186 @@
+.header-color {
+  background: #314755;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #26a0da, #314755);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #26a0da, #314755); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+/* Landing Page */
+
+.landing-grid {
+  background: #314755;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #26a0da, #314755);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #26a0da, #314755); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  position: fixed;
+  top: 7%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.profile-img {
+  height: 250px;
+  border-radius: 40%;
+}
+
+
+.banner-text {
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  text-align: center;
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+
+/* About Page */ 
+.about-page {
+  background-image: url(images/IMG_1985.JPG);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.about-right-col {
+  padding: 2em;
+}
+
+.about-right-col p {
+  font-size: 40px;
+  color: whitesmoke;
+  line-height: 1em;
+  text-align: center;
+  padding-top: 2em;
+
+}
+
+.projectCard {
+  color: white;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.reactCard {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/VR_Group_logo.svg/1200px-VR_Group_logo.svg.png);
+}
+
+.jQueryResumeCard {
+  background-image: url(./images/jQuery_CV.JPG);
+}
+
+.obsimoCard {
+  background-image: url(./images/Obsimo.JPG);
+}
+
+.projects-grid {
+  display: flex;
+}
+
+.contact-body {
+margin: auto;
+position: fixed;
+width: 100%;
+height: 100%;
+justify-content: center;
+padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 66px;
+  padding-right: 5rem;
+}
+/* Resume Page */
+.resume-body {
+  overflow: hidden;
+  width: 100%;
+}
+
+.resume-right-col {
+background: #27221F;
+color: white;
+position: absolute;
+padding: 2em;
+right: 0;
+width: 100%;
+height: 97%;
+overflow-y: scroll;
+}
+
+.resume-left {
+position: absolute;
+height: 97%;
+width: 100%;
+overflow: hidden;
+}
+
+.resumeTabs a {
+  color: white !Important;
+}
+.resumeTabs a:hover {
+  color: white !Important;
+  background-color: #3f342d;
+}
+
+.mdl-tabs__tab.is-active {
+  color: white !Important;
+  background-color: #38332f;
+}
