@@ -18,9 +18,8 @@ class Projects extends Component {
                             VR (Valtio Rautatie) is the national railway service for Finland. I created a simple VR app to gain some simple understanding of how React works and how APIs work. It functions as best as a beginner can make it, but I am proud of it!
                         </CardText>
                         <CardActions border>
-                            <Button>Github</Button>
-                            <Button>CodePen</Button>
-                            <Button>LiveDemo</Button>
+                            <Button href='https://github.com/ILiterallyCannot/VR-App'>Github</Button>
+                            <Button href='https://student.labranet.jamk.fi/~L8314/reactapp/'>LiveDemo</Button>
                         </CardActions>
                         <CardMenu style={{ color: 'fff' }}><IconButton name='share' /></CardMenu>
                     </Card>
@@ -35,9 +34,8 @@ class Projects extends Component {
                             I created my first online CV with HTML, CSS, and jQuery. It was challenging to get everything to fit on a non-scrolling page. While there are some bugs in the transitions, I am proud of my compact, yet simple designing skills here. 
                         </CardText>
                         <CardActions border>
-                            <Button>Github</Button>
-                            <Button>CodePen</Button>
-                            <Button>LiveDemo</Button>
+                            <Button href='https://github.com/ILiterallyCannot/Obsimo'>Github</Button>
+                            <Button href='https://iliterallycannot-jquery-cv.herokuapp.com/index.html'>LiveDemo</Button>
                         </CardActions>
                         <CardMenu style={{ color: 'fff' }}><IconButton name='share' /></CardMenu>
                     </Card>
@@ -47,9 +45,8 @@ class Projects extends Component {
                             We took part in a school project to create an app that surveys employers to select which classes they deem most important. While most other teams focused on basic apps with radio buttons and input, my team went off the rails and created this award winning app that functions more like a dashboard.
                         </CardText>
                         <CardActions border>
-                            <Button>Github</Button>
-                            <Button>CodePen</Button>
-                            <Button>LiveDemo</Button>
+                            <Button href='https://github.com/ILiterallyCannot/Obsimo'>Github</Button>
+                            <Button href='https://iliterallycannot-obsimo.herokuapp.com/index.html'>LiveDemo</Button>
                         </CardActions>
                         <CardMenu style={{ color: 'fff' }}><IconButton name='share' /></CardMenu>
                     </Card>
