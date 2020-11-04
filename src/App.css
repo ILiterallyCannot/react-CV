@@ -42,10 +42,14 @@
   border-radius: 10px;
 }
 
-.banner-text h1, .banner-text h2 {
+.banner-text h1 {
   text-align: center;
   font-size: 66px;
   font-weight: bold;
+  color: white;
+}
+
+.banner-text h2 {
   color: white;
 }
 
