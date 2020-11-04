@@ -215,7 +215,7 @@
   background-color: #38332f;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
   .banner-text {
     width: 70%;
     margin: auto;
@@ -280,7 +280,7 @@
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 768px) {
   .banner-text {
     width: 70%;
     border-radius: 10px;
@@ -319,6 +319,10 @@
   }
   .contact-grid h2 {
     font-size: 40px;
+  }
+  .resume-right-col {
+    width: 100%;
+    
   }
 }
 
