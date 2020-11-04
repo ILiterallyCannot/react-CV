@@ -11,7 +11,8 @@ class Landing extends Component {
                     <Cell col={12}>
                         <img className='profile-img' alt='avatar' src={profile}/>
                         <div className="banner-text">
-                            <h1>Software Engineer and Coffee Addict</h1> 
+                            <h1>Corey Johnson</h1>
+                            <h2>Software Engineer and Coffee Addict</h2> 
                             <hr/>
                             <p>HTML/CSS | JavaScript | Jquery | React | Python | SQL | Test Automation</p>
                             <div className="social-links">

@@ -42,7 +42,7 @@
   border-radius: 10px;
 }
 
-.banner-text h1 {
+.banner-text h1, h2 {
   text-align: center;
   font-size: 66px;
   font-weight: bold;
@@ -185,7 +185,7 @@
   position: absolute;
   padding: 2em;
   right: 0;
-  width: 100%;
+  width: 30%;
   height: 97%;
   overflow-y: scroll;
 }
@@ -193,7 +193,7 @@
 .resume-left {
   position: absolute;
   height: 97%;
-  width: 100%;
+  width: 70%;
   overflow: hidden;
 }
 
