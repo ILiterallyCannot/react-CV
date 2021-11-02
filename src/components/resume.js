@@ -5,6 +5,7 @@ import Experience from './experience';
 import Skills from './skills';
 import profile from '../images/Profile2.JPG'
 import Languages from './languages';
+import SoftSkills from './softskills';
 
 class Resume extends Component {
     constructor(props) {
@@ -211,22 +212,22 @@ class Resume extends Component {
             return (
                 <div>
                     <h2>Other skills and interests</h2>
-                    <softSkill
+                    <SoftSkills
                         skill='Sales, marketing, and networking skills'
                     />
-                    <softSkill
+                    <SoftSkills
                         skill='Airbnb superhost and goMore host (Similar to Turo)'
                     />
-                    <softSkill
+                    <SoftSkills
                         skill='A friend of everyone, easy to get along with in many environments'
                     />
-                    <softSkill
+                    <SoftSkills
                         skill='Eases tense situations, easy to relax with'
                     />
-                    <softSkill
+                    <SoftSkills
                         skill='A good listener, honest, realistic'
                     />
-                    <softSkill
+                    <SoftSkills
                         skill='Brings a good atmosphere'
                     />
                 </div>
