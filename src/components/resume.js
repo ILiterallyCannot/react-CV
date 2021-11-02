@@ -25,7 +25,7 @@ class Resume extends Component {
                         jobDescription='Integrating the latest 5G software with state of the art radio technology, and making the kind of calls no one has ever seen before.
                         Researching better testing solutions to Nokias vast 5G team.'
                         jobAchievement='Bringing the latest 5G radios with never-seen-before tecnology to life for the first time. Reduced startup test time from over 3 hours to less than 10 minutes.'/>
-                    <Experiencea
+                    <Experience
                         startYear='June 2019'
                         endYear='April 2020'
                         jobName='Solteq Plc'
