@@ -242,11 +242,7 @@ class Resume extends Component {
                         <img className='profile-img' alt='profile' src={profile}
                                 style={{ height: '250px' }} />
                         </div>
-<<<<<<< HEAD
                         <h3 style={{ paddingTop: '1em' }}>Corey Johnson</h3>
-=======
-                        <h3 style={{ paddingTop: '1em' }}>Corey Johnson</h2>
->>>>>>> 76480e1cf25127a3beaeef8f201ec090a0318a09
                         <h4 style={{ color: 'grey' }}>Software Engineer</h4>
                         <h4 style={{ color: 'grey' }}>Research & Development</h4>
                         <h4 style={{ color: 'grey' }}>Test Automation</h4>
