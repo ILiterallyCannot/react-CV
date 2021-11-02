@@ -16,8 +16,7 @@ class Resume extends Component {
         if (this.state.activeTab === 0) {
             return (
                 <div>
-                    <h2>Experience</h2>
-                    <h4>Professional</h4>
+                    <h2>Professional Experience</h2>
                     <Experience 
                         startYear='Sept 2020'
                         endYear='Ongoing'
@@ -243,8 +242,10 @@ class Resume extends Component {
                         <img className='profile-img' alt='profile' src={profile}
                                 style={{ height: '250px' }} />
                         </div>
-                        <h2 style={{ paddingTop: '1em' }}>Corey Johnson</h2>
-                        <h4 style={{ color: 'grey' }}>Entry/Junior Software Engineer</h4>
+                        <h3 style={{ paddingTop: '1em' }}>Corey Johnson</h3>
+                        <h4 style={{ color: 'grey' }}>Software Engineer</h4>
+                        <h4 style={{ color: 'grey' }}>Research & Development</h4>
+                        <h4 style={{ color: 'grey' }}>Test Automation</h4>
                         <hr style={{ borderTop: '3px solid #314755', width: '80%' }} />
                         <p>The developer you'll never regret hiring</p>
                         <hr style={{ borderTop: '3px solid #314755', width: '80%' }} />
