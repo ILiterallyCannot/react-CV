@@ -16,8 +16,16 @@ class Resume extends Component {
             return (
                 <div>
                     <h2>Experience</h2>
-                    <h4>Study related</h4>
-                    <Experience
+                    <h4>Professional</h4>
+                    <Experience 
+                        startYear='Sept 2020'
+                        endYear='Ongoing'
+                        jobName='Nokia Oyj'
+                        jobTitle='5G Project, L1 Call Test automation, Research and Development Engineer'
+                        jobDescription='Integrating the latest 5G software with state of the art radio technology, and making the kind of calls no one has ever seen before.
+                        Researching better testing solutions to Nokias vast 5G team.'
+                        jobAchievement='Bringing the latest 5G radios with never-seen-before tecnology to life for the first time. Reduced startup test time from over 3 hours to less than 10 minutes.'/>
+                    <Experiencea
                         startYear='June 2019'
                         endYear='April 2020'
                         jobName='Solteq Plc'
@@ -39,53 +47,21 @@ class Resume extends Component {
                         jobDescription='Prepared the warehouse for an upcoming EU standard safety inspection' 
                         jobAchievement='The warehouse passed the EU standard safety inspection'/>
                     <hr style={{ borderTop: '3px solid #e22947' }} />
-                    <h4>Other experience (Chronological)</h4>
-                    <Experience
-                        startYear='October 2017'
-                        endYear='Ongoing'
-                        jobName='Wolt'
-                        jobTitle='Courier'
-                        jobDescription='Bike Courier, delivered food around town to hungry customers'
-                        jobAchievement='Highest rated courier in the city on several instances'/>
-                    <Experience
-                        startYear='December 2018'
-                        endYear='Ongoing'
-                        jobName='Kotipizza Oy'
-                        jobTitle='Courier'
-                        jobDescription='Pizza delivery courier'
-                        jobAchievement='Works at the most successful franchise in Jyväskylä'/>
-                    <Experience
-                        startYear='September 2016'
-                        endYear='October 2017'
-                        jobName='Sol Oy'
-                        jobTitle='Cleaning and Maintenance'
-                        jobDescription='Cleaned and maintained common areas, assisted colleagues and customers needs at Sokos Hotel Jyväshovi' 
-                        jobAchievement='Highly recommended worker'/>
-                    <Experience
-                        startYear='September 2012'
-                        endYear='September 2016'
-                        jobName='N Clean Oy'
-                        jobTitle='Cleaning and Maintenance'
-                        jobDescription='Cleaned and maintained common areas, assisted colleagues and customers needs at Sokos Hotel Paviljonki' 
-                        jobAchievement='Worked until the hotel closed in March 2016'/>
-                    <Experience
-                        startYear='March 2011'
-                        endYear='October 2011'
-                        jobName='Trades Unlimited Inc'
-                        jobTitle='Logistics Coordinator'
-                        jobDescription='Responsible for keeping several construction crews in separate areas moving efficiently coordinating supplies managing waste from work sites.' 
-                        jobAchievement='Decreased waste management costs by as much as 70%. '/>
                 </div>
             )
         } else if (this.state.activeTab === 1) {
             return (
                 <div>
                     <h2>Skills and Understanding</h2>
-                    <h5 className='skillScale' style={{ textAlign: 'center' }}> ← Student/Intern ---------- Junior ---------- Senior → </h5>
+                    <h5 className='skillScale' style={{ textAlign: 'center' }}> ← Beginner ---------- Junior ---------- Senior → </h5>
                     <h4>Programming</h4>
                     <Skills
                         skill='Python'
-                        progress='25'
+                        progress='49'
+                    />
+                    <Skills
+                        skill='Django'
+                        progress='35'
                     />
                     <Skills
                         skill='Robot Framework'
@@ -93,11 +69,11 @@ class Resume extends Component {
                     />
                     <Skills
                         skill='SQL'
-                        progress='30'
+                        progress='45'
                     />
                     <Skills
                         skill='Bash'
-                        progress='30'
+                        progress='40'
                     />
                     <Skills
                         skill='Ansible'
@@ -109,11 +85,11 @@ class Resume extends Component {
                     />
                     <Skills
                         skill='ReactJS, NodeJS'
-                        progress='35'
+                        progress='40'
                     />
                     <Skills
                         skill='JavaScript'
-                        progress='35'
+                        progress='40'
                     />
                     <Skills
                         skill='jQuery'
@@ -137,10 +113,26 @@ class Resume extends Component {
                     />
                     <hr style={{ borderTop: '3px solid #e22947' }} />
                     <h4>Software and Platform services</h4>
-                    <h5 className='skillScale' style={{ textAlign: 'center' }}> ← Student/Intern ---------- Junior ---------- Senior → </h5>
+                    <h5 className='skillScale' style={{ textAlign: 'center' }}> ← Beginner ---------- Junior ---------- Senior → </h5>
+                    <Skills
+                        skill='Git'
+                        progress='50'
+                    />
                     <Skills
                         skill='Jenkins'
-                        progress='35'
+                        progress='45'
+                    />
+                    <Skills
+                        skill='Linux OS'
+                        progress='45'
+                    />
+                    <Skills
+                        skill='Jira'
+                        progress='50'
+                    />
+                    <Skills
+                        skill='Yocto (Linux Os)'
+                        progress='40'
                     />
                     <Skills
                         skill='Docker'
@@ -153,18 +145,6 @@ class Resume extends Component {
                     <Skills
                         skill='AWS'
                         progress='25'
-                    />
-                    <Skills
-                        skill='Linux OS'
-                        progress='40'
-                    />
-                    <Skills
-                        skill='Jira'
-                        progress='30'
-                    />
-                    <Skills
-                        skill='Git'
-                        progress='40'
                     />
                 </div>
             )
@@ -219,11 +199,35 @@ class Resume extends Component {
                     />
                     <Languages
                         language='German'
-                        progress='20'
+                        progress='30'
                     />
                     <Languages
                         language='Swedish'
                         progress='20'
+                    />
+                </div>
+            )
+        }else if (this.state.activeTab === 4) {
+            return (
+                <div>
+                    <h2>Other skills and interests</h2>
+                    <softSkill
+                        skill='Sales, marketing, and networking skills'
+                    />
+                    <softSkill
+                        skill='Airbnb superhost and goMore host (Similar to Turo)'
+                    />
+                    <softSkill
+                        skill='A friend of everyone, easy to get along with in many environments'
+                    />
+                    <softSkill
+                        skill='Eases tense situations, easy to relax with'
+                    />
+                    <softSkill
+                        skill='A good listener, honest, realistic'
+                    />
+                    <softSkill
+                        skill='Brings a good atmosphere'
                     />
                 </div>
             )
@@ -243,8 +247,8 @@ class Resume extends Component {
                         <hr style={{ borderTop: '3px solid #314755', width: '80%' }} />
                         <p>The developer you'll never regret hiring</p>
                         <hr style={{ borderTop: '3px solid #314755', width: '80%' }} />
-                        <h5>Address</h5>
-                        <p>Survontie 46, 40520</p>
+                        <h5>Location</h5>
+                        <a href="https://goo.gl/maps/bvpwh55vcccVKkGc6" target="_blank">Oulu, Finland</a>
                         <h5>Phone number</h5>
                         <p>+358445001976</p>
                         <h5>e-mail</h5>
@@ -257,6 +261,7 @@ class Resume extends Component {
                             <Tab>Skills</Tab>
                             <Tab>Education</Tab>
                             <Tab>Languages</Tab>
+                            <Tab>Soft skills and Intrests</Tab>
                         </Tabs>
                         <div className="content">{this.toggleCategories()}</div>
                         <hr style={{ borderTop: '3px solid #e22947' }} />
