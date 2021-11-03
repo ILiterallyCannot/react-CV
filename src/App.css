@@ -192,8 +192,6 @@
   width: 70%;
   height: 97%;
   overflow-y: scroll;
-  padding-right: 17px;
-  box-sizing: content-box;
 }
 
 .resume-left {
