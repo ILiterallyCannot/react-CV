@@ -6,6 +6,8 @@ import Skills from './skills';
 import profile from '../images/Profile2.JPG'
 import Languages from './languages';
 import SoftSkills from './softskills';
+import { withTranslation } from 'react-i18next';
+import { t } from 'i18next';
 
 class Resume extends Component {
     constructor(props) {
@@ -16,45 +18,60 @@ class Resume extends Component {
         if (this.state.activeTab === 0) {
             return (
                 <div>
-                    <h2>Professional Experience</h2>
+                    <h2>{t('professional_experience')}</h2>
                     <Experience 
-                        startYear='Sept 2020'
-                        endYear='Ongoing'
-                        jobName='Nokia Oyj'
-                        jobTitle='5G Project, L1 Call Test automation, Research and Development Engineer'
-                        jobDescription='Integrating the latest 5G software with state of the art radio technology, and making the kind of calls no one has ever seen before.
-                        Researching better testing solutions to Nokias vast 5G team.'
-                        jobAchievement='Bringing the latest 5G radios with never-seen-before tecnology to life for the first time. Reduced startup test time from over 3 hours to less than 10 minutes.'/>
+                        startMonth={t('feb')}
+                        startYear={t('2022')}
+                        endMonth={t('ongoing')}
+                        endYear=''
+                        jobName={t('siili.name')}
+                        jobTitle={t('siili.title')}
+                        jobDescription= {t('siili.description')}
+                        jobAchievement={t('siili.achievements')}/>
                     <Experience
-                        startYear='June 2019'
-                        endYear='April 2020'
-                        jobName='Solteq Plc'
-                        jobTitle='Junior Developer, Test Automation Engineer'
-                        jobDescription='Developed an Automated Test Suite for Solteq’s Smart Retail Robot project on both the UI and robot itself. '
-                        jobAchievement='The Test Automation Suite took a multi-phase manual test setup and reduced it down to the push of a single button, saving developers countless hours every week and allowing them to focus on critical development work.'/>
+                        startMonth={t('sep')}
+                        startYear={t('2020')}
+                        endMonth={t('feb')}
+                        endYear={t('2022')} 
+                        jobName={t('nokia.name')}
+                        jobTitle={t('nokia.title')}
+                        jobDescription={t('nokia.description')}
+                        jobAchievement={t('nokia.achievements')}/>
                     <Experience
-                        startYear='April 2015'
-                        endYear='January 2017'
-                        jobName='Heraeus Electro-Nite LLC Chelyabinsk'
-                        jobTitle='Production Engineer, Thesis Worker'
-                        jobDescription='Worked for 3 short internship periods over 6 months in Chelyabinsk observing the factory and redesigning production lines'
-                        jobAchievement='Redesigned one production line which reduced time wasted by as much as 40% by moving some of the stations around and streamlining the production process'/>
+                        startMonth={t('jun')}
+                        startYear={t('2019')}
+                        endMonth={t('apr')}
+                        endYear={t('2020')}
+                        jobName={t('solteq.name')}
+                        jobTitle={t('solteq.title')}
+                        jobDescription={t('solteq.description')}
+                        jobAchievement={t('solteq.achievements')}/>
                     <Experience
-                        startYear='June 2015'
-                        endYear='July 2015'
-                        jobName='Fortum, Chelyabinsk'
-                        jobTitle='Internship, Warehouse management'
-                        jobDescription='Prepared the warehouse for an upcoming EU standard safety inspection' 
-                        jobAchievement='The warehouse passed the EU standard safety inspection'/>
-                    <hr style={{ borderTop: '3px solid #e22947' }} />
+                        startMonth={t('apr')}
+                        startYear={t('2015')}
+                        endMonth={t('jan')}
+                        endYear={t('2017')}
+                        jobName={t('heraeus.name')}
+                        jobTitle={t('heraeus.title')}
+                        jobDescription={t('heraeus.description')}
+                        jobAchievement={t('heraeus.achievements')}/>
+                    <Experience
+                        startMonth={t('jun')}
+                        startYear={t('2015')}
+                        endMonth={t('jul')}
+                        endYear={t('2015')}
+                        jobName={t('fortum.name')}
+                        jobTitle={t('fortum.title')}
+                        jobDescription={t('fortum.description')}
+                        jobAchievement={t('fortum.achievements')}/>
                 </div>
             )
         } else if (this.state.activeTab === 1) {
             return (
                 <div>
-                    <h2>Skills and Understanding</h2>
-                    <h5 className='skillScale' style={{ textAlign: 'center' }}> ← Beginner ---------- Junior ---------- Senior → </h5>
-                    <h4>Programming</h4>
+                    <h2>{t('skills-understanding')}</h2>
+                    <h5 className='skillScale' style={{ textAlign: 'center' }}>{t('skill-scale')}</h5>
+                    <h4>{t('programming')}</h4>
                     <Skills
                         skill='Python'
                         progress='49'
@@ -85,7 +102,7 @@ class Resume extends Component {
                     />
                     <Skills
                         skill='ReactJS, NodeJS'
-                        progress='40'
+                        progress='50'
                     />
                     <Skills
                         skill='JavaScript'
@@ -112,8 +129,8 @@ class Resume extends Component {
                         progress='25'
                     />
                     <hr style={{ borderTop: '3px solid #e22947' }} />
-                    <h4>Software and Platform services</h4>
-                    <h5 className='skillScale' style={{ textAlign: 'center' }}> ← Beginner ---------- Junior ---------- Senior → </h5>
+                    <h4>{t('platforms')}</h4>
+                    <h5 className='skillScale' style={{ textAlign: 'center' }}> {t('skill-scale')} </h5>
                     <Skills
                         skill='Git'
                         progress='50'
@@ -155,54 +172,59 @@ class Resume extends Component {
                     <Education
                         startYear={2018}
                         endYear={2020}
-                        schoolName='Jyväskylä University of Applied Science'
-                        schoolDescription='Bachelors Degree in Information Technology' />
+                        schoolName={t('jamk.name')}
+                        schoolDescription={t('jamk.it-degree')} />
                     <Education
                         startYear={2012}
                         endYear={2017}
-                        schoolName='Jyväskylä University of Applied Science'
-                        schoolDescription='Bachelors Degree in Logistics Engineering' />
+                        schoolName={t('jamk.name')}
+                        schoolDescription={t('jamk.log-degree')} />
                     <Education
                         startYear={2009}
                         endYear={2010}
-                        schoolName='Jämsä Christian College'
-                        schoolDescription='Certificate of Finnish Language' />
+                        schoolName={t('jkrko.name')}
+                        schoolDescription={t('jkrko.degree')} />
                     <Education
                         startYear={2006}
                         endYear={2007}
-                        schoolName='East Valley Institute of Technology'
-                        schoolDescription='Private Pilot Ground School' />
+                        schoolName={t('evit.name')}
+                        schoolDescription={t('evit.degree')} />
                     <Education
                         startYear={2004}
                         endYear={2008}
-                        schoolName='Coronado High School'
-                        schoolDescription='Diploma with honors' />
+                        schoolName={t('high-school.name')}
+                        schoolDescription={t('high-school.degree')} />
                 </div>
                 
             )
         }else if (this.state.activeTab === 3) {
             return (
                 <div>
-                    <h2>Language Skills</h2>
-                    <h5 className='langScale' style={{ textAlign: 'center' }}> ← Basics -------------------- Fluent/Native → </h5>
+                    <h2>{t('language-skills')}</h2>
+                    <h5 className='langScale' style={{ textAlign: 'center' }}> {t('language-scale')} </h5>
                     <Languages
-                        language='English'
+                        langId='en'
+                        language={t('en')}
                         progress='100'
                     />
                     <Languages
-                        language='Finnish'
+                        langId='fi'
+                        language={t('fi')}
                         progress='80'
                     />
                     <Languages
-                        language='Russian'
+                        langId='de'
+                        language={t('de')}
+                        progress='40'
+                    />
+                    <Languages
+                        langId='ru'
+                        language={t('ru')}
                         progress='30'
                     />
                     <Languages
-                        language='German'
-                        progress='30'
-                    />
-                    <Languages
-                        language='Swedish'
+                        langId='se'
+                        language={t('se')}
                         progress='20'
                     />
                 </div>
@@ -210,30 +232,32 @@ class Resume extends Component {
         }else if (this.state.activeTab === 4) {
             return (
                 <div>
-                    <h2>Other skills and interests</h2>
+                    <h2>{t('other-interests.name')}</h2>
                     <SoftSkills
-                        skill='Sales, marketing, and networking skills'
+                        skill={t('other-interests.other1')}
                     />
                     <SoftSkills
-                        skill='Airbnb superhost and goMore host (Similar to Turo)'
+                        skill={t('other-interests.other2')}
                     />
                     <SoftSkills
-                        skill='A friend of everyone, easy to get along with in many environments'
+                        skill={t('other-interests.other3')}
                     />
                     <SoftSkills
-                        skill='Eases tense situations, easy to relax with'
+                        skill={t('other-interests.other4')}
                     />
                     <SoftSkills
-                        skill='A good listener, honest, realistic'
+                        skill={t('other-interests.other5')}
                     />
                     <SoftSkills
-                        skill='Brings a good atmosphere'
+                        skill={t('other-interests.other6')}
                     />
                 </div>
             )
         }
     }
     render() {
+        const { t } = this.props;
+        const mapLink = "https://google.com/maps/place/{home}".replaceAll("{home}", t('home'))
         return (
             <div>
                 <Grid className='resume-body'>
@@ -242,28 +266,28 @@ class Resume extends Component {
                         <img className='profile-img' alt='profile' src={profile}
                                 style={{ height: '250px' }} />
                         </div>
-                        <h3 style={{ paddingTop: '1em' }}>Corey Johnson</h3>
-                        <h4 style={{ color: 'grey' }}>Software Engineer</h4>
-                        <h4 style={{ color: 'grey' }}>Research & Development</h4>
-                        <h4 style={{ color: 'grey' }}>Test Automation</h4>
+                        <h3 style={{ paddingTop: '1em' }}>{t('name')}</h3>
+                        <h4 style={{ color: 'grey' }}>{t('software_engineer')}</h4>
+                        <h4 style={{ color: 'grey' }}>{t('r_and_d')}</h4>
+                        <h4 style={{ color: 'grey' }}>{t('q_a')}</h4>
                         <hr style={{ borderTop: '3px solid #314755', width: '80%' }} />
-                        <p>The developer you'll never regret hiring</p>
+                        <p>{t('motto')}</p>
                         <hr style={{ borderTop: '3px solid #314755', width: '80%' }} />
-                        <h5>Location</h5>
-                        <a href="https://goo.gl/maps/bvpwh55vcccVKkGc6" target="_blank">Oulu, Finland</a>
-                        <h5>Phone number</h5>
-                        <p>+358445001976</p>
-                        <h5>e-mail</h5>
-                        <a href='mailto: cjmkori90@gmail.com'>cjmkori90@gmail.com</a>
+                        <h5>{t('location')}</h5>
+                        <a href = {mapLink} target="_SEJ">{t('home')}</a>
+                        <h5>{t('phone_number')}</h5>
+                        <p>{t('phone')}</p>
+                        <h5>{t('email')}</h5>
+                        <a href='mailto: cjmkori90@gmail.com'>{t('email_address')}</a>
                         <hr style={{ borderTop: '3px solid #314755', width: '80%' }} />
                     </Cell>
                     <Cell className='resume-right-col' col={8}>
                         <Tabs className='resumeTabs' activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-                            <Tab>Experience</Tab>
-                            <Tab>Skills</Tab>
-                            <Tab>Education</Tab>
-                            <Tab>Languages</Tab>
-                            <Tab>Soft skills and Intrests</Tab>
+                            <Tab>{t('experience')}</Tab>
+                            <Tab>{t('skills')}</Tab>
+                            <Tab>{t('education')}</Tab>
+                            <Tab>{t('languages')}</Tab>
+                            <Tab>{t('soft_skills_interests')}</Tab>
                         </Tabs>
                         <div className="content">{this.toggleCategories()}</div>
                         <hr style={{ borderTop: '3px solid #e22947' }} />
@@ -273,4 +297,4 @@ class Resume extends Component {
         )
     }
 }
-export default Resume;
+export default withTranslation()(Resume);

@@ -1,0 +1,123 @@
+{
+  "name": "Corey Johnson",
+  "title": "Ohjelmistö Kehittäjä ja Kahvi Guru",
+  "motto": "Omalaatuinen Kehittäjä!",
+  "location": "Helsinki, Finland",
+  "software_engineer": "Ohjelmistö Kehittäjä",
+  "r_and_d": "Tutkimus & Kehittäminen",
+  "test_automation": "Testi Automaatio",
+  "q_a": "Laadun Varmistaja",
+  "highlights": "HTML/CSS | JavaScript | Jquery | React | Python | SQL | Test Automation",
+  "hi": "Hei, Olen Corey.",
+  "aboutMe": "In 2009, I jumped on a plane with a bag of old clothes and a few hundred euros in my pocket, and left my childhood home for Finland. <br><br> After a decade of amazing adventures and attaining 2 bachelor's degrees, I am here to share my story and make your office a better place to be. ",
+  "professional_experience": "Ammatillinen Kokemusta",
+  "contact_me": "Ota Yhteyttä",
+  "phone_number": "Puhelinnumero",
+  "phone": "+358445001976",
+  "linkedin": "LinkedIn",
+  "see_cv": "Katso CV:tä!",
+  "email": "s-posti",
+  "email_me": "Laita sähköposti!",
+  "email_address": "cjmkori90@gmail.com",
+  "experience": "Kokemusta",
+  "skills": "Taidot",
+  "education": "Koulutus",
+  "languages": "Kielet",
+  "soft_skills_interests": "Muu / harrastuksia",
+  "siili": {
+    "name": "Siili Solutions",
+    "title": "Konsultantti",
+    "description": "Asiantuntijalausuntojen, analyysien ja suositusten antaminen organisaatioille tai yksityishenkilöille oman asiantuntemukseni perusteella.",
+    "achievements": "Built several responsive UI's for client apps"
+  },
+  "router": {
+    "main": "Kotisivu",
+    "resume": "Ansioluettelo",
+    "about": "Minusta",
+    "projects": "Projekteja",
+    "contact": "Ota Yhteyttä"
+  },
+  "nokia": {
+    "name": "Nokia Oyj",
+    "title": "5G QA Insinööri",
+    "description": "Integrating the latest 5G software with state of the art radio technology, and making the kind of calls no one has ever seen before. <br> Researching better testing solutions to Nokias vast 5G team.",
+    "achievements": "Bringing the latest 5G radios with never-seen-before tecnology to life for the first time. Reduced startup test time from over 3 hours to less than 10 minutes."
+  },
+  "solteq": {
+    "name": "Solteq Oyj",
+    "title": "Junior Kehittäjä",
+    "description": "Developed an Automated Test Suite for Solteq’s Smart Retail Robot project on both the UI and robot itself.",
+    "achievements": "Reduced a multi-phase manual test setup down to the push of a single button, saving developers up to 45 minutes every test."
+  },
+  "heraeus": {
+    "name": "Heraeus Electro Nite LLC Chelyabinsk",
+    "title": "Tuotanto Insinööri, Lopputyö",
+    "description": "Observing the factory and redesigned production lines",
+    "achievements": "Redesigned one production line which reduced time wasted by as much as 40% by moving some of the stations around and streamlining the production process."
+  },
+  "fortum": {
+    "name": "Fortum LLC Chelyabinsk",
+    "title": "Varasto turvalisuuden hallinta, työharjoittelu ",
+    "description": "Inspected a warehouse for an upcoming EU standard safety inspection",
+    "achievements": "The warehouse passed the EU standard safety inspection"
+  },
+  "jamk": {
+    "name": "Jyväskylä University of Applied Science",
+    "it-degree": "ICT Kandidaatintutkinto",
+    "log-degree": "Logiistikkan Insinöörin Kandidaatintutkinto"
+  },
+  "jkrko": {
+    "name": "Jämsä Christian College",
+    "degree": "Suomen kielen tutkinto"
+  },
+  "evit": {
+    "name": "East Valley Institute of Technology",
+    "degree": "Private Pilot Ground School",
+    "degree2": "Restaurant Management"
+  },
+  "high-school": {
+    "name": "Coronado High School",
+    "degree": "Ylioppilas Tutkintö"
+  },
+  "ongoing": "Jatkuva",
+  "jan": "Tammikuu",
+  "feb": "Helmikuu",
+  "mar": "Maaliskuu",
+  "apr": "Huhtikuu",
+  "may": "Toukokuu",
+  "jun": "Kesäkuu",
+  "jul": "Heinäkuu",
+  "aug": "Elokuu",
+  "sep": "Syyskuu",
+  "oct": "Lokakuu",
+  "nov": "Marraskuu",
+  "dec": "Joulukuu",
+  "2015": "2015",
+  "2016": "2016",
+  "2017": "2017",
+  "2018": "2018",
+  "2019": "2019",
+  "2020": "2020",
+  "2021": "2021",
+  "2022": "2022",
+  "en": "Englanti",
+  "fi": "Suomi",
+  "de": "Saksa",
+  "ru": "Venäjä",
+  "se": "Ruotsi",
+  "skills-understanding": "Skills and Understanding",
+  "platforms": "Software and Platform services",
+  "programming": "Programming",
+  "language-skills": "Language Skills",
+  "other-interests": {
+    "name": "Other Interests",
+    "other1" : "Sales, marketing, and networking skills",
+    "other2" : "Airbnb superhost and goMore host (Similar to Turo)",
+    "other3" : "A friend of everyone, easy to get along with in many environments",
+    "other4" : "Eases tense situations, easy to relax with",
+    "other5" : "A good listener, honest, realistic",
+    "other6" : "Brings a good atmosphere"
+  }, 
+  "skill-scale": "← Beginner ---------- Junior ---------- Senior → ",
+  "language-scale": "← Basics -------------------- Native →"
+}

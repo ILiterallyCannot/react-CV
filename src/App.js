@@ -5,10 +5,14 @@ import './App.css';
 import { Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
 import Main from './components/main'
 import { Link } from 'react-router-dom';
+import './i18n/config';
+import { useTranslation } from 'react-i18next';
+
 
 function App() {
 
     const history = createBrowserHistory();
+    const { t } = useTranslation();
 
     // Initialize google analytics page view tracking
     history.listen(location => {
@@ -20,20 +24,20 @@ function App() {
   return (
     <div>
     <Layout>
-        <Header className="header-color" title={<Link style={{textDecoration:'none', color:'white'}} to='/'>Home</Link>}>
+        <Header className="header-color" title={<Link style={{textDecoration:'none', color:'white'}} to='/'>{t('router.main')}</Link>}>
             <Navigation>
-                <a href="/resume">Resume</a>
-                <a href="/aboutme">About</a>
-                <a href="/projects">Projects</a>
-                <a href="/contact">Contact</a>
+                <a href="/resume">{t('router.resume')}</a>
+                <a href="/aboutme">{t('router.about')}</a>
+                <a href="/projects">{t('router.projects')}</a>
+                <a href="/contact">{t('router.contact')}</a>
             </Navigation>
         </Header>
-        <Drawer title={<Link style={{textDecoration:'none', color:'black'}} to='/'>Home</Link>}>
+        <Drawer title={<Link style={{textDecoration:'none', color:'black'}} to='/'>{t('router.main')}</Link>}>
             <Navigation>
-                <a href="/resume">Resume</a>
-                <a href="/aboutme">About</a>
-                <a href="/projects">Projects</a>
-                <a href="/contact">Contact</a>
+                <a href="/resume">{t('router.resume')}</a>
+                <a href="/aboutme">{t('router.about')}</a>
+                <a href="/projects">{t('router.projects')}</a>
+                <a href="/contact">{t('router.contact')}</a>
             </Navigation>
         </Drawer>
         <Content>
