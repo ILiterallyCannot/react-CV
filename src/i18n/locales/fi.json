@@ -9,7 +9,7 @@
   "q_a": "Laadun Varmistaja",
   "highlights": "HTML/CSS | JavaScript | Jquery | React | Python | SQL | Test Automation",
   "hi": "Hei, Olen Corey.",
-  "aboutMe": "In 2009, I jumped on a plane with a bag of old clothes and a few hundred euros in my pocket, and left my childhood home for Finland. <br><br> After a decade of amazing adventures and attaining 2 bachelor's degrees, I am here to share my story and make your office a better place to be. ",
+  "aboutMe": "Vuonna 2009, Hyppäsin yhdellä matkalaukulla ja pari sadalla eurolla käteisrahaa lentokoneeseen ja lähti Suomeen kotimaastani. <br><br> 10 vuoden seikkäilyn ja ICT opintojen jälkeen, olen valmis tuomaan teille hyvä ilmapiiri, hyviä taitoja ja hyvä ilmapiiri.",
   "professional_experience": "Ammatillinen Kokemusta",
   "contact_me": "Ota Yhteyttä",
   "phone_number": "Puhelinnumero",
@@ -28,7 +28,7 @@
     "name": "Siili Solutions",
     "title": "Konsultantti",
     "description": "Asiantuntijalausuntojen, analyysien ja suositusten antaminen organisaatioille tai yksityishenkilöille oman asiantuntemukseni perusteella.",
-    "achievements": "Built several responsive UI's for client apps"
+    "achievements": "Rakensi useita responsiivisia käyttöliittymiä asiakassovelluksille"
   },
   "router": {
     "main": "Kotisivu",
@@ -40,8 +40,8 @@
   "nokia": {
     "name": "Nokia Oyj",
     "title": "5G QA Insinööri",
-    "description": "Integrating the latest 5G software with state of the art radio technology, and making the kind of calls no one has ever seen before. <br> Researching better testing solutions to Nokias vast 5G team.",
-    "achievements": "Bringing the latest 5G radios with never-seen-before tecnology to life for the first time. Reduced startup test time from over 3 hours to less than 10 minutes."
+    "description": "Uusin 5G-ohjelmiston integroiminen huippuluokan radioteknologiaan ja 'puhelinsoittoa' joita kukaan ei ole koskaan ennen nähnyt. <br> Tutkin parempia testausratkaisuja Nokian laajalle 5G-tiimille.",
+    "achievements": "Tuo uusimmat 5G-radiot ennennäkemättömällä tekniikalla eloon ensimmäistä kertaa. Lyhennetty käynnistystestiaika yli 3 tunnista alle 10 minuuttiin."
   },
   "solteq": {
     "name": "Solteq Oyj",
@@ -105,19 +105,19 @@
   "de": "Saksa",
   "ru": "Venäjä",
   "se": "Ruotsi",
-  "skills-understanding": "Skills and Understanding",
-  "platforms": "Software and Platform services",
-  "programming": "Programming",
-  "language-skills": "Language Skills",
+  "skills-understanding": "Taidot ja Ymmärtäminen",
+  "platforms": "Ohjelmisto- ja alustapalvelut",
+  "programming": "Ohjelmointi",
+  "language-skills": "Kielitaidot",
   "other-interests": {
-    "name": "Other Interests",
-    "other1" : "Sales, marketing, and networking skills",
-    "other2" : "Airbnb superhost and goMore host (Similar to Turo)",
-    "other3" : "A friend of everyone, easy to get along with in many environments",
-    "other4" : "Eases tense situations, easy to relax with",
-    "other5" : "A good listener, honest, realistic",
-    "other6" : "Brings a good atmosphere"
+    "name": "Muu/Harrastukset",
+    "other1" : "Myynnin, markkinoinnin ja verkostoitumisen taitoja",
+    "other2" : "Airbnb superhost/goMore auto vuokraus",
+    "other3" : "Kaikkien ystävä, jonka kanssa on helppo tulla toimeen monissa ympäristöissä",
+    "other4" : "Helpottaa jännittyneitä tilanteita, minun kanssa on helppo rentoutua",
+    "other5" : "Hyvä kuuntelija, rehellinen, realistinen",
+    "other6" : "Tuo hyvä ilmapiiri"
   }, 
-  "skill-scale": "← Beginner ---------- Junior ---------- Senior → ",
-  "language-scale": "← Basics -------------------- Native →"
+  "skill-scale": "← Harjoittelija ---------- Juniori ---------- Seniori → ",
+  "language-scale": "← Alkeet -------------------- Äidinkieli →"
 }

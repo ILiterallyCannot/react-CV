@@ -5,6 +5,7 @@ import i18n from "../i18n/config";
 class Languages extends Component {
     handleLangChange(e) {
         i18n.changeLanguage(e.currentTarget.dataset.value);
+        localStorage.setItem("lan", e.currentTarget.dataset.value);
     }
     render() {
         return (

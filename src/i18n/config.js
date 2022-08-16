@@ -4,8 +4,9 @@ import { initReactI18next } from 'react-i18next';
 const app = {};
 
 i18n.use(initReactI18next).init({
-  fallbackLng: 'en',
-  lng: 'en',
+  fallbackLng: ['en', 'fi'],
+  lng: localStorage.getItem("lan") || 'en',
+  debug: true,
   resources: {
     en: {
       translations: require('./locales/en.json')
